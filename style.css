@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+nav div ul.navbar-nav .nav-item {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+nav div ul.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+    transition: ease 0.2s;
+}
+
+nav div ul.navbar-nav .nav-item .nav-link:hover,
+.item-active {
+    color: #fff !important;
+    border-bottom: 2px solid #fff !important;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 26px;
+}
+
+section.banner {
+    position: relative;
+}
+
+section.banner div.part1 {
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    filter: blur(1px);
+}
+
+section.banner div.part1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+section.banner div.part2 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 160px;
+    background-color: #fff;
+}
+
+section.banner div.part2 .contact {
+    font-size: 24px;
+}
+
+div.about {
+    position: absolute;
+    top: 225px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.about div.top,
+div.about div.bottom {
+    text-align: center;
+    color: #fff;
+}
+
+div.about div.bottom {
+    margin-top: 85px;
+}
+
+div.about div.bottom img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+section.container div.carousel div.carousel-inner {
+    padding: 5px;
+    width: 93%;
+    margin: 0 auto;
+}
+
+section.container div.carousel div.arrow-wrapper a {
+    width: 30px;
+    height: 100%;
+}
+
+section.container div.carousel div.carousel-inner div.carousel-item div.card {
+    min-height: 250px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section.skills div.top {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+p i {
+    text-align: center;
+    width: 20px;
+    margin-right: 15px;
+}
+
+.content .name {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.content h1 span {
+    color: #2d968b;
+}
+
+p {
+    font-size: 22px;
+    color: #576d67;
+    margin: 0;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+.quater {
+    color: #228178;
+}
+
+i {
+    color: #228178;
+    font-size: 22px;
+}
+
+.title {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-bottom: 2px;
+    letter-spacing: 3px;
+    border-bottom: 4px solid rgba(17, 113, 103, 1);
+}
+
+footer {
+    text-align: center;
+    background-color: #313131;
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: transparent;
+}
+
+footer div p,
+footer div a i {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.scroll {
+    padding: 70px 0;
+}
+
+hr {
+    background: #a8a8a8;
+}
+
+@media only screen and (max-width: 991px) {
+    section.container div.carousel div.carousel-inner div.carousel-item div.card {
+        min-height: 300px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    section.container div.carousel div.carousel-inner div.carousel-item div.card {
+        min-height: 350px;
+    }
+}
+
+@media only screen and (max-width: 463px) {
+    section.container div.carousel div.carousel-inner div.carousel-item div.card {
+        min-height: 450px;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    section.container div.carousel div.carousel-inner div.carousel-item div.card {
+        min-height: 550px;
+    }
+}
+
+@media only screen and (max-width: 439px) {
+    div.about {
+        top: 180px;
+    }
+    section.banner div.part1 {
+        background-image: url(img/banner2.jpg);
+        background-size: cover;
+    }
+}
